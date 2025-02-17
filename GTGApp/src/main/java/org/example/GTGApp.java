@@ -15,6 +15,28 @@ public class GTGApp {
         JPanel panel = new JPanel();
         panel.setBackground(Color.PINK);
 
+        JPanel northPanel = new JPanel();
+        northPanel.setBackground(Color.RED);
+        jf.add(northPanel, BorderLayout.NORTH);
+
+        JPanel southPanel = new JPanel();
+        southPanel.setBackground(Color.BLACK);
+        jf.add(southPanel, BorderLayout.SOUTH);
+
+        JPanel eastPanel = new JPanel();
+        eastPanel.setBackground(Color.BLUE);
+        jf.add(eastPanel, BorderLayout.EAST);
+
+        JPanel westPanel = new JPanel();
+        westPanel.setBackground(Color.YELLOW);
+        jf.add(westPanel, BorderLayout.WEST);
+
+        JPanel centerPanel = new JPanel();
+        centerPanel.setBackground(Color.PINK);
+        jf.add(centerPanel, BorderLayout.CENTER);
+        centerPanel.setLayout(null);
+
+
         jf.add(panel);
         JMenuBar jmb = new JMenuBar();
         jf.setJMenuBar(jmb);
