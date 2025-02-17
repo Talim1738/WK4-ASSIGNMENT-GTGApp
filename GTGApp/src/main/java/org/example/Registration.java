@@ -1,20 +1,17 @@
 package org.example;
 
 import javax.swing.*;
-import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class Registration extends JFrame implements ActionListener {
     public Registration() {
         JPanel panel = new JPanel();
-        panel.setBackground(Color.PINK);
         this.setSize(350, 250);
         this.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         this.add(panel);
         this.setTitle("App Registration");
         panel.setLayout(null);
-
 
         JMenuBar jmb = new JMenuBar();
         this.setJMenuBar(jmb);
@@ -78,5 +75,22 @@ public class Registration extends JFrame implements ActionListener {
 
     public static void main(String[] args) {
         new Registration();
+    }
+
+    public JButton getFinishButton() {
+
+
+        return null;
+    }
+
+    public boolean isRegistrationComplete() {
+
+
+        return false;
+    }
+
+    public void getStatusLabel() {
+
+
     }
 }
